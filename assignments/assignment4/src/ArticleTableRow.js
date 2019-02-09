@@ -5,10 +5,11 @@ class ArticleTableRow extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      title: this.title = props.title,
-      author: this.author = props.author,
-      date: this.date = props.date,
-      shortText: this.shortText = props.shortText
+      title: this.props.title,
+      author: this.props.author,
+      date: this.props.date,
+      shortText: this.props.shortText,
+      selected: false
     };
 
   }
@@ -35,11 +36,11 @@ class ArticleTableRow extends React.Component {
     //
     return (
       <tr align="left">
-      <td align="left"> <input type="checkbox" onClick= {this.onClick.bind(this)}/> {this.title} </td>
+      <td align="left"> <input type="checkbox" onClick= {this.onClick.bind(this)}/> {this.props.title} </td>
       <td> {selectedStatus} </td>
-      <td> <a rel={this.author} href= "/author"> {this.author} </a> </td>
+      <td> <a rel={this.author} href= "/author"> {this.props.author} </a> </td>
       <td> <time datetime= "2018">2018</time> </td>
-      <td> {this.shortText} </td>
+      <td> {this.props.shortText} </td>
       </tr>
     );
   }
@@ -54,3 +55,4 @@ ArticleTableRow.propTypes = {
 };
 
 export default ArticleTableRow;
+
