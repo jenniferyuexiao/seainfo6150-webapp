@@ -4,12 +4,11 @@ import PropTypes from 'prop-types';
 class ArticleTableRow extends React.Component {
   constructor(props) {
     super(props);
-    this.title = props.title;
-    this.author = props.author;
-    this.date = props.date;
-    this.shortText = props.shortText;
     this.state = {
-      selected: false
+      title: this.title = props.title,
+      author: this.author = props.author,
+      date: this.date = props.date,
+      shortText: this.shortText = props.shortText
     };
 
   }
