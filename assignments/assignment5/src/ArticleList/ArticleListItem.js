@@ -20,7 +20,7 @@ class ArticleListItem extends React.Component{
             <ul>
                 <li> <h3> <b> {this.props.title} </b> </h3> </li>
                 <li> <p> {this.props.shortText} </p> </li>
-                <li> <address> <a rel="{this.props.author}" href="/author"> By: {this.props.author} </a> </address> </li>
+                <li> <address> <a rel={this.author} href= "/author"> {this.props.author} </a> </address> </li>
                 <li> <time dateTime={this.props.date}> {this.props.date} </time> </li>
             </ul>
             </div>
