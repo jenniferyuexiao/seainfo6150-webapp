@@ -5,7 +5,7 @@ import ArticleListItem from './ArticleListItem.js';
 import './ArticleList.module.css';
 
 let ArticleList = ({ articles }) => (
-  <div className = {styles.article_list}>
+  <ul className = {styles.article_list}>
   {
     // this iterates through the articles JSON and
     // calls your ArticleListItem component for each article
@@ -20,7 +20,7 @@ let ArticleList = ({ articles }) => (
       />
     })
   }
-  </div>
+  </ul>
 );
 
 ArticleList.propTypes = {
