@@ -11,3 +11,6 @@
     background-color: gray;
     z-index: 1;
 }
+ul li {
+    list-style: none;
+}
