@@ -19,12 +19,13 @@ class ArticleListItem extends React.Component{
 
     render() {
         return(
-            <div>
+             <div>
             <li className = {styles.article_list}>
+                <div>
                 <ArticleImage data={this.state}/>
                 <h3> <b> {this.props.title} </b> </h3>
                 <p> {this.props.shortText} </p>
-            </div>
+                </div>
                 <div><a rel="{this.props.author}" href="/author"> By: {this.props.author} </a><br /></div>
                 <time dateTime={this.props.year}> {this.props.date} </time>
             </li>
