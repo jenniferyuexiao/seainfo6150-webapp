@@ -1,0 +1,16 @@
+
+
+.article_list {
+    border: 1px dashed black;
+    width: 100%;
+    margin: 60px auto;
+    height: auto;
+    background-color: gray;
+    z-index: 1;
+    font-family: serif;
+}
+
+.grid_box{
+    display: inline-grid;
+    grid-template-columns: 33% 33% 33%;
+}
