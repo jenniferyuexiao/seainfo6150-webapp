@@ -39,7 +39,7 @@ class ArticleTableRow extends React.Component {
       <td align="left"> <input type="checkbox" onClick= {this.onClick.bind(this)}/> {this.props.title} </td>
       <td> {selectedStatus} </td>
       <td> <address> <a rel={this.author} href= "/author"> {this.props.author} </a> </address> </td>
-      <td> <time datetime= "2018">2018</time> </td>
+      <td> <time dateTime= "2018">2018</time> </td>
       <td> {this.props.shortText} </td>
       </tr>
     );
@@ -55,4 +55,3 @@ ArticleTableRow.propTypes = {
 };
 
 export default ArticleTableRow;
-
