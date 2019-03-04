@@ -6,7 +6,7 @@ const Article = (props) => (
   <div>
   <h1> {props.title} </h1>
   <a rel = {props.author} href = "/author"> {props.author} </a> <br />
-  <time datetime = {props.date}> {props.date} </time> <br />
+  <time dateTime = {props.date}> {props.date} </time> <br />
   <p> {props.children} </p>
   </div>
 );
