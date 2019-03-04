@@ -1,0 +1,12 @@
+.NewsHeader {
+    width: 100%;
+    height: 8rem;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C90813;
+    font-family: sans-serif;
+}

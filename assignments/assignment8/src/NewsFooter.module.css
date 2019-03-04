@@ -1,0 +1,20 @@
+.NewsFooter {
+    background-color: #ca0000;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    color: black;
+    padding-left: 1%;
+    padding-right: 0;
+}
+
+.NewsFooter_time {
+    font-family: sans-serif;
+    padding-right: 0;
+}
+
+address{
+  padding-right: 10%;
+}
