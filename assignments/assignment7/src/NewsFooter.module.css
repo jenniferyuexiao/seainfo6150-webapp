@@ -1,10 +1,10 @@
 .NewsFooter {
     background-color: #ca0000;
-    display: inline-flex;
+    display: flex;
     justify-content: flex-start;
     align-items: center;
     height: auto;
-    width: 90%;
+    width: 100%;
     color: black;
     padding-left: 1%;
     padding-right: 1%;
